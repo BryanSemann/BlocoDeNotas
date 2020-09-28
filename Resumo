@@ -1,0 +1,17 @@
+Ver resumo
+Bloco de Notas: 
+No Android, há varias opções de armazenar dados, conhecidas como Storage Options, destas opções temos: a Shared Preferences que é um sistema de mantimento de dados que nos da a possibilidade salvar valores primitivos, como: boolean, float, int, long e String a partir de uma chave.
+Como salvar dados em SharedPreferences:
+Para pegar os sharedPreferences do app:
+SharedPreferences sharedPreferences = getAplicationContext.getSharedPreferences(nome do pacote,Context mode);
+Para salvar um determinado elemento:
+sharedPreferences.edit().putTipo(id/key, valor).apply();
+Para desenvolver o bloco de notas utilizamos:
+Interface:
+ListView;
+EditText;
+Button;
+Aplicação:
+ArraList;
+ArrayAdapter;
+SharedPreferences.
